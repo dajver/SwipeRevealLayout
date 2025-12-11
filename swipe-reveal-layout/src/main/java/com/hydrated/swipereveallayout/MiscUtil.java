@@ -1,6 +1,6 @@
-package com.hydrated.swipereveallayout;
+package com.dajver.swipereveallayout;
 
-import static com.hydrated.swipereveallayout.SwipeRevealLayout.*;
+import static com.dajver.swipereveallayout.SwipeRevealLayout.*;
 
 /**
  * Created by hydra on 2017/2/18.

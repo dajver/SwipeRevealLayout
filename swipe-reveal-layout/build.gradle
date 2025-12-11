@@ -3,10 +3,10 @@ plugins {
     id 'com.android.library'
 }
 
-group = 'com.github.hydrated'
+group = 'com.github.dajver'
 
 android {
-    namespace "com.hydrated.swipereveallayout"
+    namespace "com.dajver.swipereveallayout"
     defaultConfig {
         compileSdk 34
     }
@@ -14,8 +14,6 @@ android {
     defaultConfig {
         minSdkVersion 26
         targetSdkVersion 35
-        versionCode 7
-        versionName "1.4.0"
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
@@ -43,11 +41,10 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                groupId = 'com.github.hydrated'
+                groupId = 'com.github.dajver'
                 artifactId = 'swipe-reveal-layout'
-                version = '1.5.3'
+                version = '1.56.1'
                 from components.findByName('release')
-
             }
         }
     }

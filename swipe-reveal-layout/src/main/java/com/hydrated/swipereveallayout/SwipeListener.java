@@ -1,4 +1,4 @@
-package com.hydrated.swipereveallayout;
+package com.dajver.swipereveallayout;
 
 /**
  * Created by hydra on 2017/2/16.

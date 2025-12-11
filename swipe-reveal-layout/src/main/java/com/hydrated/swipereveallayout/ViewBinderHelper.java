@@ -22,7 +22,7 @@
  SOFTWARE.
  */
 
-package com.hydrated.swipereveallayout;
+package com.dajver.swipereveallayout;
 
 import android.os.Bundle;
 

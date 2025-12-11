@@ -9,9 +9,9 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.hydrated.swipereveallayout.SwipeListener;
-import com.hydrated.swipereveallayout.SwipeRevealLayout;
-import com.hydrated.swipereveallayout.ViewBinderHelper;
+import com.dajver.swipereveallayout.SwipeListener;
+import com.dajver.swipereveallayout.SwipeRevealLayout;
+import com.dajver.swipereveallayout.ViewBinderHelper;
 
 import java.util.ArrayList;
 import java.util.List;

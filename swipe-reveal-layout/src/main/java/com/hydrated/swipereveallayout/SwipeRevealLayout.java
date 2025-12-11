@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 
-package com.hydrated.swipereveallayout;
+package com.dajver.swipereveallayout;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -41,7 +41,7 @@ import androidx.core.view.GestureDetectorCompat;
 import androidx.core.view.ViewCompat;
 import androidx.customview.widget.ViewDragHelper;
 
-import com.hydrated.swipereveallayout.R;
+import com.dajver.swipereveallayout.R;
 
 public class SwipeRevealLayout extends ViewGroup {
     // These states are used only for ViewBindHelper

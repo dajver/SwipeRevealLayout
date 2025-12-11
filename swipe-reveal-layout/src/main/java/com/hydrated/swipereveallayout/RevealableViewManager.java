@@ -1,9 +1,9 @@
-package com.hydrated.swipereveallayout;
+package com.dajver.swipereveallayout;
 
 import android.graphics.Rect;
 import android.view.View;
 
-import static com.hydrated.swipereveallayout.SwipeRevealLayout.*;
+import static com.dajver.swipereveallayout.SwipeRevealLayout.*;
 
 import java.util.HashMap;
 import java.util.HashSet;
