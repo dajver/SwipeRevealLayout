@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "com.chauthai.swipereveallayoutdemo"
+    namespace "com.dajver.swipereveallayoutdemo"
     defaultConfig {
         compileSdk 34
     }
 
     defaultConfig {
-        applicationId "com.chauthai.swipereveallayout.test2"
+        applicationId "com.dajver.swipereveallayout.test2"
         minSdkVersion 26
         targetSdkVersion 35
         versionCode 7
