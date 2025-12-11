@@ -38,7 +38,15 @@ public class RevealableViewManager {
 
     public Rect getMainOpenRect(Rect main, int edge) {
         Rect mRectMainOpen = new Rect();
-        View view = getGroupFromEdge(edge).getView();
+
+        RevealableViewModel group = getGroupFromEdge(edge);
+        View view = (group != null) ? group.getView() : null;
+
+        if (view == null) {
+            mRectMainOpen.set(main);
+            return mRectMainOpen;
+        }
+
         switch (edge) {
             case DRAG_EDGE_LEFT:
                 mRectMainOpen.set(main.left + view.getWidth(), main.top, main.right + view.getWidth(), main.bottom);
