@@ -3,8 +3,6 @@ plugins {
     id 'com.android.library'
 }
 
-group = 'com.github.dajver'
-
 android {
     namespace "com.dajver.swipereveallayout"
     defaultConfig {
@@ -35,18 +33,5 @@ dependencies {
     //implementation 'androidx.core:core:1.16.0'
     //implementation 'androidx.customview:customview:1.1.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-}
-
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                groupId = 'com.github.dajver'
-                artifactId = 'swipe-reveal-layout'
-                version = '1.56.1'
-                from components.findByName('release')
-            }
-        }
-    }
 }
 
